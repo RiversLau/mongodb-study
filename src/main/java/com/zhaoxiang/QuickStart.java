@@ -30,8 +30,6 @@ public class QuickStart {
         Document Fugl_MeyerDoc = new Document().append("patient_info", patientDoc)
                 .append("question_one", Arrays.asList("Ⅰ无支撑坐位", "0分：不能保持坐位", "1分：能坐，但少于5min", "2分：能坚持坐5min"));
 
-
-
         collection.insertOne(Fugl_MeyerDoc);
         collection.find().forEach(new Block<Document>() {
             public void apply(Document document) {
