@@ -23,6 +23,6 @@ public class TableDocTest {
         patientInfo.setInHospitalNum("200001");
         joa001Table.setPatientInfoComponent(patientInfo);
 
-
+        joa001Table.setPatientInfoComponent(patientInfo);
     }
 }
