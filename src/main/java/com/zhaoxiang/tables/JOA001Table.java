@@ -1,12 +1,11 @@
 package com.zhaoxiang.tables;
 
+import com.zhaoxiang.component.CategoryComponent;
 import com.zhaoxiang.component.PatientInfoComponent;
 import com.zhaoxiang.component.ResultComponent;
 import com.zhaoxiang.component.SimpleLevelComponent;
 import lombok.Getter;
 import lombok.Setter;
-
-import java.util.List;
 
 /**
  * Author: RiversLau
@@ -16,11 +15,14 @@ import java.util.List;
 @Setter
 public class JOA001Table {
 
+    private String name;
+    private String remark;
+
     private PatientInfoComponent patientInfoComponent;
     private ResultComponent resultComponent;
 
-    private List<SimpleLevelComponent> subjectiveList;
-    private List<SimpleLevelComponent> clinlcalList;
-    private List<SimpleLevelComponent> lifeList;
+    private CategoryComponent subjective;
+    private CategoryComponent clinlcal;
+    private CategoryComponent life;
     private SimpleLevelComponent bladder;
 }

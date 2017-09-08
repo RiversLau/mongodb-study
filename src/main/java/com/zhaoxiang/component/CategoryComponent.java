@@ -15,5 +15,6 @@ public class CategoryComponent {
 
     private String name;
     private String type;
-    private List<ItemComponent> componentList;
+    private Integer totalScore;
+    private List<SimpleLevelComponent> componentList;
 }

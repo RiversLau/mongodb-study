@@ -1,4 +1,4 @@
-package com.zhaoxiang;
+package com.zhaoxiang.quickStart;
 
 import com.mongodb.Block;
 import com.mongodb.MongoClient;
