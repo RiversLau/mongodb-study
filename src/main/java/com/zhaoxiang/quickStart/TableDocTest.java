@@ -25,7 +25,7 @@ public class TableDocTest {
 
         JOA001Table joa001Table = initialJOATable();
 
-        MongoClient client = new MongoClient("localhost", 27017);
+        MongoClient client = new MongoClient("192.168.2.8", 27017);
         MongoDatabase mgdb = client.getDatabase("estimate_tables");
 
         System.out.println("Connect to MongoDB successfully!" + "Database is " + mgdb.getName());

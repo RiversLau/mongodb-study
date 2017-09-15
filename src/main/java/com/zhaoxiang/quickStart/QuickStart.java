@@ -17,7 +17,7 @@ public class QuickStart {
 
     public static void main(String[] args) {
 
-        MongoClient client = new MongoClient("localhost", 27017);
+        MongoClient client = new MongoClient("100.64.39.99", 7017);
         MongoDatabase mgdb = client.getDatabase("quickstart");
 
         System.out.println("Connect to MongoDB successfully!" + "Database is " + mgdb.getName());
